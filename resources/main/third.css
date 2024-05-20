@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+.bord_t {
+    border: groove #ea8d23;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(0,0,0,0.7);
+    font-weight: 400;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    main.index {
+    padding: 0 70px 0 70px;
+}
+}

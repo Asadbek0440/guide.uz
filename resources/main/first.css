@@ -1,0 +1,35 @@
+
+main {
+    padding: 0 50px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    height: 77vh;
+}
+
+#start{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    backface-visibility: initial;
+}
+
+#start h1{
+    font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 10px 5px 10px;
+    }
+
+    #start {
+        padding: 5px 8px;
+    }
+    #start h1 {
+        font-size: 1.2em;
+    }
+    #start p {
+        font-size: 1em;
+    }
+}

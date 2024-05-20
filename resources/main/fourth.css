@@ -1,0 +1,19 @@
+main.index{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 5px 10px
+}
+p {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+    padding: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+    margin: 0 70px 0 70px;
+}
+}
